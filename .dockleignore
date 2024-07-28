@@ -1,0 +1,6 @@
+# Doesn't need create non-root user for the container
+CIS-DI-0001
+# Doesn't need enable Content trust for Docker
+CIS-DI-0005
+# Doesn't need HEALTHCHECK instruction to the container image
+CIS-DI-0006
