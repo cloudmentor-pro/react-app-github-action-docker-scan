@@ -1,1 +1,0 @@
-# react-app-github-action-docker-scan
