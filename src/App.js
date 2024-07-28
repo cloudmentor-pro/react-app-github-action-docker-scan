@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Cloud Mentor Pro 1
+          Cloud Mentor Pro 2
         </p>
         <a
           className="App-link"
