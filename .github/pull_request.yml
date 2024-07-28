@@ -1,0 +1,13 @@
+on:
+    pull_request:
+      branches: 
+        - 'main'
+
+jobs:
+  container-security-check:
+    name: container-security-check
+    if: github.event.pull_request.base.ref == 'main'
+    uses: ./.github/workflows/container-security-check.yml
+    secrets: inherit
+    with:
+        image-name: ${{ github.event.repository.name }}
