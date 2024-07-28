@@ -85,4 +85,5 @@ jobs:
           hide_and_recreate: true
           hide_classify: "OUTDATED"
           path: comment.md
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional Another repository owner, If not set, the current repository owner is used by default. Note that when you trying changing a repo, be aware that GITHUB_TOKEN should also have permission for that repository.
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
